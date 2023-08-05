@@ -148,6 +148,10 @@ nav{
     border-top: 5px yellow solid;
 }
 /*amis-section style*/
+.aim-section{
+    width: 90%;
+    margin: 0 auto;
+}
 .aim-section .container{
     display: flex;
     justify-content: space-between;
@@ -159,7 +163,7 @@ nav{
 
 }
 .aim-section .container img{
-    width: 300px;
+    width: 100%;
     border-radius: 50%;
     border-left:5px solid aqua;
     border-right:5px solid blueviolet;
@@ -167,7 +171,7 @@ nav{
 /* Tablet mode */
 @media(width:768px){
 .aim-section .container{
-    flex-direction: column-reverse;
+    display: block;
     font-size: 20px;
     width: 100%;
 }
@@ -184,7 +188,7 @@ nav{
 
 @media(width:425px){
     .aim-section .container{
-        flex-direction: column;
+        display: block;
         font-size: 15px;
         width: 100%;
        
@@ -205,7 +209,7 @@ nav{
     
 @media(width:375px){
     .aim-section .container{
-        flex-direction: column;
+        display: block;
         font-size: 15px;
         width: 100%;
        
@@ -222,11 +226,11 @@ nav{
     }
     
     }
-    /* 320 screen size mode */
-    
-@media(width:320px){
+
+        
+@media(width:390px){
     .aim-section .container{
-        flex-direction: column;
+        display: block;
         font-size: 15px;
         width: 100%;
         align-items: center;
@@ -245,3 +249,28 @@ nav{
     }
     
     }
+    /* 320 screen size mode */
+    
+@media(width:320px){
+    .aim-section .container{
+        display: block;
+        font-size: 15px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .aim-section .container .aim-image{
+        margin-bottom: 15px;
+    }
+  
+    
+    #curriculum .container{
+        grid-template-columns: repeat(1,1fr);
+    
+    
+    }
+    
+    }
+    /*  */
+   
