@@ -168,12 +168,28 @@ nav{
     border-left:5px solid aqua;
     border-right:5px solid blueviolet;
 }
+.member img{
+    box-sizing: border-box;
+}
+
+#btn{
+    background-color: rgb(50, 125, 172);
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    transition: 1s ease;
+}
+#btn:hover{
+    background-color: rgb(19, 64, 92);
+}
 /* Tablet mode */
 @media(width:768px){
 .aim-section .container{
     display: block;
     font-size: 20px;
     width: 100%;
+    
 }
 
 
