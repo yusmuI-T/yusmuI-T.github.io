@@ -27,7 +27,7 @@ myform.addEventListener('submit',(event)=>{
    const message = document.getElementById("message").value;
 
     const PhoneNumber = '2347045568176';
-    const encodedMessage =   encodedMessage = 
+    const encodedMessage = 
     encodeURIComponent("Name: " + name + "\nEmail: " + email + "\nSubject: " + subject + "\nMessage: " + message);
 
      const whatsAppLink = "https://wa.me" + PhoneNumber + "?text=" + encodedMessage;
