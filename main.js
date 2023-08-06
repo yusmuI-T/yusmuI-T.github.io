@@ -32,6 +32,8 @@ myform.addEventListener('submit',(event)=>{
      Subject: ${subject} \n Message: ${message}`);
 
      const whatsAppLink = "https://wa.me" + PhoneNumber + "?text=" + encodedMessage;
+     window.open(whatsAppLink);
 
+     
      
 });
