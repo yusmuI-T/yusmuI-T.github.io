@@ -26,7 +26,7 @@ myform.addEventListener('submit',(event)=>{
    const subject = document.getElementById("subject").value;
    const message = document.getElementById("message").value;
 
-    const PhoneNumber = '2347045568176';
+    const PhoneNumber = '2347045777804';
     const encodedMessage = 
     encodeURIComponent("Name: " + name + "\nEmail: " + email + "\nSubject: " + subject + "\nMessage: " + message);
 
